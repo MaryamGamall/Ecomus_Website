@@ -1,0 +1,44 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-image {
+  margin-top: 20px;
+  width: 400px;
+
+}
+
+.single-page {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.single-page .product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.pn,
+.pp {
+  color: #b2e1dd;
+}
+
+.pd {
+  color: #ffffff;
+}
+
+.pba {
+  margin-right: 50px;
+}
